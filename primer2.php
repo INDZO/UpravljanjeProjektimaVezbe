@@ -25,6 +25,7 @@ $broj2 = $_GET['broj2'];
     <button type="submit" name="operacija" value="oduzimanje">Oduzimanje</button>
     <button type="submit" name="operacija" value="mnozenje">Množenje</button>
     <button type="submit" name="operacija" value="deljenje">Deljenje</button>
+    <button type="submit" name="operacija" value="kvadriranje prvog broja">Kvadriranje prvog broja</button>
 </form>
 
 </body>
