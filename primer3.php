@@ -66,6 +66,9 @@ switch($operacija) {
             $greska = 'Greška: nije dozvoljeno deljenje sa nulom.';
         }
         break;
+    case "kvadriranje prvog broja":
+        $rezultat = $broj1 * $broj1;
+        break;
 }
 ?>
 
