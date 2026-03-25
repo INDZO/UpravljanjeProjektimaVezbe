@@ -20,6 +20,9 @@ switch($operacija) {
         break;
     case "oduzimanje":
         $rezultat = $broj1 - $broj2;
+        if ($rezultat < 0) {
+            echo "Rezultat je negativan!";
+        }
         break;
     case "mnozenje":
         $rezultat = $broj1 * $broj2;
