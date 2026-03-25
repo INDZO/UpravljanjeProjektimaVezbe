@@ -10,16 +10,19 @@
 <?php
 $broj1 = $_GET['broj1'];
 $broj2 = $_GET['broj2'];
+$broj3 = $_GET['broj3'];
 ?>
 
 <h2>Izaberi operaciju</h2>
 
 <p>Prvi broj: <?php echo $broj1; ?></p>
 <p>Drugi broj: <?php echo $broj2; ?></p>
+<p>Treci broj: <?php echo $broj3; ?></p>
 
 <form action="primer3.php" method="post">
     <input type="hidden" name="broj1" value="<?php echo $broj1; ?>">
     <input type="hidden" name="broj2" value="<?php echo $broj2; ?>">
+    <input type="hidden" name="broj3" value="<?php echo $broj3; ?>">
 
     <button type="submit" name="operacija" value="sabiranje">Sabiranje</button>
     <button type="submit" name="operacija" value="oduzimanje">Oduzimanje</button>

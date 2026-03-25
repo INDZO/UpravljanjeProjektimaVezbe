@@ -11,6 +11,7 @@
 <form action="primer2.php" method="get">
     Prvi broj: <input type="number" name="broj1" required><br><br>
     Drugi broj: <input type="number" name="broj2" required><br><br>
+    Treci broj: <input type="number" name="broj3" required><br><br>
 
     <input type="submit" value="Dalje">
 </form>
