@@ -31,7 +31,7 @@ switch($operacija) {
         if ($broj2 != 0) {
             $rezultat = $broj1 / $broj2;
         } else {
-            echo "Greška: nije dozvoljeno deljenje sa nulom!";
+            echo "Greška: nije dozvoljeno deljenje sa nulom.";
             exit;
         }
         break;
