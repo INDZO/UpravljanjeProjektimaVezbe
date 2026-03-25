@@ -19,11 +19,6 @@
     <p class="korak">Korak 1 od 3</p>
     <h2>Unesi tri broja</h2>
 
-<form action="primer2.php" method="get">
-    Prvi broj: <input type="number" name="broj1" required><br><br>
-    Drugi broj: <input type="number" name="broj2" required><br><br>
-    Treci broj: <input type="number" name="broj3" required><br><br>
-
     <form action="primer2.php" method="get">
         <label for="broj1">Prvi broj:</label>
         <input type="number" step="any" id="broj1" name="broj1" required>

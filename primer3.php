@@ -75,6 +75,7 @@ switch($operacija) {
     <div class="kartica">
         <p><strong>Prvi broj:</strong> <?php echo htmlspecialchars($broj1); ?></p>
         <p><strong>Drugi broj:</strong> <?php echo htmlspecialchars($broj2); ?></p>
+        <p><strong>Treći broj:</strong> <?php echo htmlspecialchars($broj3); ?></p>
         <p><strong>Operacija:</strong> <?php echo $simboli[$operacija] . ' ' . htmlspecialchars($operacija); ?></p>
 
         <?php if ($greska): ?>

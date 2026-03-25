@@ -36,13 +36,13 @@ $broj3 = $_GET['broj3'];
     <div class="brojevi">
         <p><strong>Prvi broj:</strong> <?php echo htmlspecialchars($broj1); ?></p>
         <p><strong>Drugi broj:</strong> <?php echo htmlspecialchars($broj2); ?></p>
+        <p><strong>Treći broj:</strong> <?php echo htmlspecialchars($broj3); ?></p>
     </div>
-<p>Treci broj: <?php echo $broj3; ?></p>
 
     <form action="primer3.php" method="post">
         <input type="hidden" name="broj1" value="<?php echo htmlspecialchars($broj1); ?>">
         <input type="hidden" name="broj2" value="<?php echo htmlspecialchars($broj2); ?>">
-    <input type="hidden" name="broj3" value="<?php echo $broj3; ?>">
+        <input type="hidden" name="broj3" value="<?php echo htmlspecialchars($broj3); ?>">
 
         <div class="operacije">
             <button type="submit" name="operacija" value="sabiranje">+ Sabiranje</button>
