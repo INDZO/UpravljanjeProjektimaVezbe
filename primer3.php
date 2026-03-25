@@ -81,7 +81,7 @@ switch($operacija) {
         <?php if ($greska): ?>
             <p class="greska"><?php echo $greska; ?></p>
         <?php else: ?>
-            <p class="rezultat"><?php echo htmlspecialchars($broj1) . ' ' . $simboli[$operacija] . ' ' . htmlspecialchars($broj2) . ' = ' . $rezultat; ?></p>
+            <p class="rezultat"><?php echo htmlspecialchars($broj1) . ' ' . $simboli[$operacija] . ' ' . htmlspecialchars($broj2)  . ' ' . $simboli[$operacija] . ' ' . htmlspecialchars($broj3). ' = ' . $rezultat; ?></p>
         <?php endif; ?>
     </div>
 
